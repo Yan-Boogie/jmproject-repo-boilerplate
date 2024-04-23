@@ -1,4 +1,4 @@
-# Tailwind CSS HTML boilerplate
+# JM Project Repo Boilerplate
 
 Basic Tailwind CSS project, extended with:
 
@@ -6,6 +6,7 @@ Basic Tailwind CSS project, extended with:
 - Inter font family
 - `custom-forms` plugin
 - Autoprefixer, CSSnano, PostCSS
+- ESLint, Prettier, prettier-plugin-tailwindcss
 
 Available scripts:
 

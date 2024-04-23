@@ -6,16 +6,7 @@
     "dev": "tailwindcss build tailwind.css -o public/css/tailwind.output.css",
     "build": "cross-env NODE_ENV=production postcss tailwind.css -o public/css/tailwind.output.css"
   },
-  "keywords": [
-    "tailwind",
-    "boilerplate",
-    "simple",
-    "html",
-    "css",
-    "minify",
-    "minification"
-  ],
-  "author": "Estevan Maito <ejmaito@gmail.com>",
+  "author": "Ian Lai <ian24257587@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "9.8.4",
@@ -25,6 +16,9 @@
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "0.2.1",
-    "cross-env": "7.0.2"
+    "cross-env": "7.0.2",
+    "globals": "^15.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14"
   }
 }
