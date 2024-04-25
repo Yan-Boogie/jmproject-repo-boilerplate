@@ -10,7 +10,7 @@
       "sourceType": "module"
     },
     "rules": {
-      // Add custom rules or override airbnb rules here
+      "linebreak-style": 0
     }
   }
   
